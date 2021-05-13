@@ -137,7 +137,7 @@ sys.stdout.write('''\r
    			Starting Your Application...{}'''.format(random.choice(['\\','/'])) )
 		
 
-with open("combo1.txt","r") as abhay:
+with open("combo.txt","r") as abhay:
 	combo = abhay.readlines()
 
 for combos in combo:
